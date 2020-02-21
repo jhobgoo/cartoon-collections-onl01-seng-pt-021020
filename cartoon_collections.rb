@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planateer_calls)
   elements = []
-  planateer_calls.collect do |element|
+  planateer_calls.map do |element|
     elements
   end
 end
