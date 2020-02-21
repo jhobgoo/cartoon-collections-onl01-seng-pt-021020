@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planateer_calls)
   elements = []
   planateer_calls.collect do |element|
-    elements
+    elements(planateer_calls.upcase)
   end
 end
 
