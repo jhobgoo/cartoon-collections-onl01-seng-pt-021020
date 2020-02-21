@@ -8,6 +8,7 @@ def summon_captain_planet(planateer_calls)
   elements = []
   planateer_calls.case do |elements|
     elements
+  end
 end
 
 def long_planeteer_calls# code an argument here
