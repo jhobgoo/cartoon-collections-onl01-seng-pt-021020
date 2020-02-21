@@ -2,7 +2,7 @@ require.pry
 
 def roll_call_dwarves(dwarves)
   binding.pry
-  dwarves.each_with_index do |index, name|
+  dwarves.each_with_index do |index, dwarves|
     puts "#{index} #{name}"
   end
 end
